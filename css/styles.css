@@ -10,6 +10,23 @@ body {
   color: #434455;
   background: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+img {
+  display: block;
+}
 /* header */
 
 .list {
@@ -19,9 +36,12 @@ body {
   text-decoration: none;
 }
 
+.container {
+  border: 1px solid tomato;
+}
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -39,7 +59,7 @@ body {
 }
 .header-logo-sekond-part {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -107,7 +127,7 @@ body {
 
 .button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -236,7 +256,7 @@ body {
 }
 .footer-logo-sekond-part {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -278,7 +298,7 @@ body {
 }
 .portfolio-hero-btn {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
