@@ -38,6 +38,7 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  display: flex;
 }
 .list {
   list-style: none;
@@ -49,6 +50,19 @@ img {
 .container {
   border: 1px solid tomato;
 }
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
 
@@ -62,11 +76,9 @@ img {
   text-transform: uppercase;
 
   color: #4d5ae5;
+  padding-left: 156px;
 }
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
 .header-logo-sekond-part {
   font-family: "Raleway", sans-serif;
 
@@ -80,9 +92,12 @@ img {
   text-transform: uppercase;
 
   color: var(--title-color);
+  margin-right: 76px;
 }
 
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-item-link {
   font-weight: 500;
@@ -101,6 +116,12 @@ img {
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-address-link {
@@ -127,6 +148,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -154,6 +176,9 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
 }
 .button:hover,
 .button:focus {
@@ -184,6 +209,7 @@ img {
 .quality-list {
 }
 .quality-item {
+  width: 264px;
 }
 .quality-title {
   font-weight: 500;
@@ -260,6 +286,10 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: 264px;
+}
+.team-item-container {
+  padding: 32px 16px 32px 16px;
 }
 .team-text {
   font-size: 16px;
@@ -363,10 +393,13 @@ img {
 
   border: 1px solid #e7e9fc;
   margin-bottom: 48px;
+  width: 360px;
+  min-height: 300px;
 }
-.portfolio-img {
-  margin-bottom: 32px;
+.portfolio-about-container {
+  padding: 32px 16px 32px 16px;
 }
+
 .portfolio-about-title {
   font-weight: 500;
   font-size: 20px;
@@ -384,5 +417,4 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--text-color);
-  margin-bottom: 32px;
 }
