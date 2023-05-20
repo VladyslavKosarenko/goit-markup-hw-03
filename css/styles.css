@@ -36,19 +36,14 @@ img {
 
 /* header */
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
   display: flex;
+  margin: 0 auto;
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
-}
-
-.container {
-  border: 1px solid tomato;
 }
 
 .header {
@@ -76,9 +71,11 @@ img {
   text-transform: uppercase;
 
   color: #4d5ae5;
-  padding-left: 156px;
 }
-
+.heager-logo-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .header-logo-sekond-part {
   font-family: "Raleway", sans-serif;
 
@@ -93,6 +90,8 @@ img {
 
   color: var(--title-color);
   margin-right: 76px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-list {
@@ -107,6 +106,8 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--title-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-item-link:active,
 .header-item-link:hover,
@@ -133,6 +134,8 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-address-link:active,
@@ -148,6 +151,12 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
 
 .hero-title {
   font-size: 56px;
@@ -158,6 +167,7 @@ img {
 
   color: #ffffff;
   margin-bottom: 48px;
+  width: 496px;
 }
 
 .button {
@@ -176,8 +186,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  min-width: 169px;
-  height: 56px;
   padding: 16px 32px 16px 32px;
 }
 .button:hover,
@@ -207,10 +215,17 @@ img {
   overflow: hidden;
 }
 .quality-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+.quality-list:not(:first-child) {
+  gap: 24px;
 }
 .quality-item {
   width: 264px;
 }
+
 .quality-title {
   font-weight: 500;
   font-size: 20px;
@@ -246,8 +261,12 @@ img {
   margin-bottom: 72px;
 }
 .about-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
 }
 .about-item {
+  width: 360px;
 }
 
 /*  blok3-team  */
@@ -280,6 +299,9 @@ img {
   margin-bottom: 8px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
 }
 .team-item {
   background: #ffffff;
@@ -311,6 +333,7 @@ img {
 .logo-footer-container {
   margin-bottom: 17px;
 }
+
 .footer-logo-sekond-part {
   font-family: "Raleway", sans-serif;
 
@@ -332,6 +355,7 @@ img {
   letter-spacing: 0.02em;
 
   color: #f4f4fd;
+  width: 264px;
 }
 
 /* portfolio */
@@ -352,6 +376,15 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.hero-btn-container {
+  display: flex;
+  margin: 0 auto;
+}
+.portfolio-hero-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
 }
 .portfolio-hero-item {
 }
@@ -374,6 +407,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 72px;
+  padding: 12px 24px 12px 24px;
 }
 .portfolio-hero-btn:hover,
 .portfolio-hero-btn:focus {
@@ -387,6 +421,10 @@ img {
 .portfolio-about {
 }
 .portfolio-about-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .portfolio-about-item {
   background: #ffffff;
@@ -394,7 +432,6 @@ img {
   border: 1px solid #e7e9fc;
   margin-bottom: 48px;
   width: 360px;
-  min-height: 300px;
 }
 .portfolio-about-container {
   padding: 32px 16px 32px 16px;
