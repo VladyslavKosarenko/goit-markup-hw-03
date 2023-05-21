@@ -393,6 +393,8 @@ img {
   display: flex;
   gap: 24px;
   margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 .portfolio-hero-item {
 }
@@ -414,7 +416,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
-  margin-bottom: 72px;
+
   padding: 12px 24px 12px 24px;
 }
 .portfolio-hero-btn:hover,
