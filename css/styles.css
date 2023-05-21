@@ -71,11 +71,11 @@ img {
   text-transform: uppercase;
 
   color: #4d5ae5;
-  margin-right: 76px;
 }
 .heager-logo-container {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 .header-logo-sekond-part {
   font-family: "Raleway", sans-serif;
@@ -90,9 +90,6 @@ img {
   text-transform: uppercase;
 
   color: var(--title-color);
-  margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-list {
@@ -107,6 +104,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--title-color);
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -135,6 +133,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--text-color);
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -354,7 +353,6 @@ img {
 
   color: #f4f4fd;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-text {
   font-size: 16px;
