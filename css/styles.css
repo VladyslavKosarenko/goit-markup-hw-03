@@ -440,8 +440,6 @@ img {
 .portfolio-about-item {
   background: #ffffff;
 
-  border: 1px solid #e7e9fc;
-
   width: calc((100% - 48px) / 3);
 }
 .portfolio-about-container {
@@ -449,6 +447,7 @@ img {
   padding-top: 32px;
   padding-left: 16px;
   padding-bottom: 32px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-about-title {
