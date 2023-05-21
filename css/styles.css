@@ -71,6 +71,7 @@ img {
   text-transform: uppercase;
 
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .heager-logo-container {
   padding-top: 24px;
@@ -167,7 +168,7 @@ img {
 
   color: #ffffff;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .button {
@@ -178,7 +179,7 @@ img {
   line-height: 1.5;
 
   display: flex;
-  align-items: center;
+  margin: 0 auto;
   letter-spacing: 0.04em;
 
   color: #ffffff;
@@ -186,6 +187,10 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px 16px 32px;
 }
 .button:hover,
@@ -331,7 +336,8 @@ img {
   padding-bottom: 100px;
 }
 .logo-footer-container {
-  margin-bottom: 17px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-sekond-part {
@@ -347,6 +353,8 @@ img {
   text-transform: uppercase;
 
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-size: 16px;
